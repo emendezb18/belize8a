@@ -1,0 +1,112 @@
+.titulo{
+    color:rgb(0, 16, 55);
+    font-size: 43px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+
+}
+.fondo{
+    background-image: url("https://wallpapercave.com/wp/wp2186463.jpg")
+}
+.margen{
+    float:right;
+    margin-right: 10%;
+    width: 30%;
+}
+
+.margen1{
+    float:left;
+    margin-left:10%;
+    width: 30%;
+    
+}
+/*linea de tiempo*/
+.linea-tiempo{
+
+    font-family: Arial;
+}
+
+/*linea central*/
+.linea-tiempo::before {
+    content: '';
+    position: absolute;
+    width: 3px;
+    background-color: black;
+    left: 125%;
+    height: 1000%;
+    border-radius: 10px;
+}
+
+.fondo2{
+    background-image: url(s);
+}
+
+.letras1{
+    color: rgb(0, 2, 147);
+    font-size: 20px;
+    font-weight: 50;
+}
+
+.fondo3{
+    background-image: url(https://www.10wallpaper.com/wallpaper/1366x768/1106/Belize_coral_reef_wallpaper_1366x768.jpg);
+}
+
+.titulos1{
+    color: rgb(0, 0, 239);
+    font-size: 30px;
+}
+
+.letrasnegras{
+    color: black;
+    font-size: 20px;
+}
+
+.fondo4{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbUzlOaJlRLTlauFZ4kK6uzk1Gh_P564Aqyw&usqp=CAU);
+}
+
+.lista1{
+    font-size: 105;
+    color: lightsalmon;
+}
+
+.navegacion{
+    border-style: solid;
+    border-color: rgb(168, 248, 255);
+    border-width: 5px;
+    margin: 20px 290px;
+    background-color: rgb(247, 180, 64);
+}
+
+.navegacion ol{
+    list-style: none;
+}
+
+.menu >li{
+    display: inline-block;
+}
+.menu>li>a{
+    text-decoration: none;
+    color: black;
+    padding: 15px 20px;
+}
+
+.menu>li>a:hover{
+    color: blue;
+}
+
+.margen2{
+    float:center;
+    margin-right: 1025;
+    width: 30%;
+}
+
+.fondo40{
+    background-image: url(b.jpeg);
+}
+
+.letraplaya{
+    color: rgb(0, 0, 0);
+    size: 25px;
+    font-weight: 1000000000000;
+}
